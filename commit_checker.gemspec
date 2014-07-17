@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.homepage    = ''
   s.license       = 'MIT'
-  s.add_dependency 'railties'
-  s.add_dependency 'rubocop'
-  s.add_dependency 'highline'
+  s.add_dependency 'railties', '4.1.4'
+  s.add_dependency 'rubocop', '0.24.1'
+  s.add_dependency 'highline', '1.6.21'
 end
