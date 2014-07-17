@@ -1,0 +1,48 @@
+# to see potential flags to enable/disable, check out github.com/bbatsov/rubocop/blob/master/config/
+
+Encoding:
+  Enabled: false
+
+LineLength:
+  Enabled: true
+  Max: 160
+
+HashSyntax:
+  Enabled: false
+
+StringLiterals:
+  Enabled: false
+
+IfUnlessModifier:
+  Enabled: false
+
+WhileUntilModifier:
+  Enabled: false
+
+SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+MethodLength:
+  Enabled: true
+  Max: 50
+
+RedundantSelf:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Void:
+  Enabled: false
+
+WordArray:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+AssignmentInCondition:
+  Enabled: false
